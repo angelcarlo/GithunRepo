@@ -20,6 +20,9 @@
 <feature name="Geolocation">
 <param name="android-package" value="org.apache.cordova.GeoBroker"/>
 </feature>
+<feature name="Accelerometer">
+    <param name="android-package" value="org.apache.cordova.AccelListener" />
+</feature>
 <preference name="orientation" value="portrait"/>
 <preference name="fullscreen" value="true"/>
 <preference name="target-device" value="universal"/>
